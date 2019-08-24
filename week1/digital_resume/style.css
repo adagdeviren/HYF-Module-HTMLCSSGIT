@@ -11,7 +11,7 @@ body {
   /*Syling Header Area*/
   .header {
 
-        background-image: url("/img/background-background-image-clear-sky-1054222.jpg");
+        background-image: url("img/background-background-image-clear-sky-1054222.jpg");
         height: 450px;
         background-position: center;
         background-repeat: no-repeat;
