@@ -1,0 +1,43 @@
+
+1. How do I create a hidden file or folder? How do I display it in the CLI?
+
+	- commands to create a hidden file ;
+
+		touch .hiddenfilename.extension  
+
+		('touch' command is for creating a file without content)
+
+				or
+
+		cat > .hiddenfilename.extension  
+
+		('cat' command is for creating a file with content)	
+
+
+	- command for creating a hidden folder;
+
+		mkdir .foldername
+
+		
+	-command for display it in the CLI;
+		
+		ls -a 
+
+
+2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+	mkdir -p creating/nested/directories
+
+(-p: A flag which enables the command to create parent directories as necessary. If the directories exist, no error is specified.)
+
+
+3. How do I append a message to a file, without a newline character, so the output would be:
+
+	first message
+	second message
+
+	- without using the new line character "\n", we can also add the message, line by line, using "echo" command like this;
+		
+		echo "first message" >> filename.txt
+		echo "second message" >> filename.txt
+
