@@ -1,0 +1,170 @@
+/*for smooth scrolling effect*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: #eeeeee;
+}
+
+  /*Syling Header Area*/
+  .header {
+
+        background-image: url("/img/background-background-image-clear-sky-1054222.jpg");
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+
+  }
+
+   .header-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+  .header-text p {
+      color: #333;
+      font-weight:bold;
+      font-size: 50px;
+      font-family: Helvetica, sans-serif; 
+  }
+
+  /*navibar styling*/
+
+  .navibar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+  .navibar li {
+      float: left
+  }
+
+  .navibar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .navibar li a:hover {
+      background-color: seagreen;
+      transition: all 0.5s;
+  }
+
+  /*Sections*/
+  .sections {
+    font-family: helvetica,sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    padding: 15px;
+    color: #333;
+  }
+  .sections h2 {
+    color: seagreen;
+  }
+  /*About Me Section*/
+  
+  #section-about-me img {
+    width: 250px;
+    border-radius:50%;
+    border: 2px solid rgb(35, 39, 37); 
+  }
+
+  #section-about-me h2 {
+    text-align: center;
+  }
+
+  .profileimg {
+    float: left;
+    padding: 30px;
+  }
+
+  /*Skills Section*/
+  #section-skills {
+    clear: both;
+    margin:20px;
+  }
+
+      /*Skill bar styling*/
+      * {box-sizing: border-box}
+
+        .skillbox {
+          width: 100%;
+          background-color: #ddd;
+        }
+
+        .skills {
+          text-align: right;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: white; /*text color*/
+        }
+
+        .html {
+          width:25%;
+          background-color:seagreen;
+        }
+
+        .css {
+          width:20%;
+          background-color: seagreen;
+        }
+
+        .js {
+          width:5%;
+          background-color: seagreen;
+        } 
+
+
+  /*Education & Language Section*/
+  #section-edu {
+      clear: both;
+      margin: 20px;
+     
+  }
+  
+  #edulist {
+    float: left;
+    padding-right: 20px;
+    width: 65%;
+  }
+  #langlist {
+    float: left;
+    padding-left: 20px;
+    width: 20%;
+  }
+
+  /*contact area*/
+  .contactarea {
+    background-color: #333;
+    margin: 0px;
+    text-align: center;
+  }
+  .contactarea h1 {
+    color: aliceblue;
+    text-align: center;
+  }
+  .contactarea a {
+    color: seagreen;
+  
+  }
+  .contactarea ul {
+    color: aliceblue;
+    font-weight: bold;
+  }
