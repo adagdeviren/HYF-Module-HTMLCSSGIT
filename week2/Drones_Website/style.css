@@ -61,8 +61,9 @@ li {
 .grid-item {
     background-color: rgb(255, 255, 255);
     width: calc(25% - 2rem);
+    min-width: 180px;
     height: 600px;
-    overflow: hidden;
+    overflow: auto;
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 10px 10px 10px 10px;
