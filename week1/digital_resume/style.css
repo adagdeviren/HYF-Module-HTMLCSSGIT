@@ -155,6 +155,8 @@ body {
     background-color: #333;
     margin: 0px;
     text-align: center;
+    color: #eeeeee;
+
   }
   .contactarea h1 {
     color: aliceblue;
@@ -167,4 +169,7 @@ body {
   .contactarea ul {
     color: aliceblue;
     font-weight: bold;
+  }
+  .info {
+    line-height: 2rem;
   }
